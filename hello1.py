@@ -36,3 +36,15 @@
 # a = ['dffdf', 'ffdfd', 'eeee', 'ffff']
 
 # print(random.choice(a))
+
+
+strok = ['ddddd_ZZZZ', 'aaaaa_sssss', 'zzzzz_qqqqq', 'fffff_aaa']
+
+# for l in i:
+# 	print(l)
+
+# 	
+
+for i in strok:
+	nn = i.split('_')[0].title()
+	print(nn)
