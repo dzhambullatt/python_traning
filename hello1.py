@@ -51,9 +51,26 @@
 
 person = {'name': 'ivan', 'surname': 'pupkin'}
 
-d = dict(name='petr', tel='12345')
+# d = dict(name='petr', tel='12345')
 
-print(d)
+# print(d)
 
-name = person['name']
-print(name)
+# name = person['name']
+# print(name)
+
+# tel = d.get('tel', '12344444')
+# print(tel)
+
+
+for i in person:
+	print(i)
+
+
+for i in person.keys():
+	print(i)
+
+for i in person.items():
+	print(i)
+
+for key, value in person.items():
+	print(key, value)
