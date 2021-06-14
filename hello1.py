@@ -38,13 +38,22 @@
 # print(random.choice(a))
 
 
-strok = ['ddddd_ZZZZ', 'aaaaa_sssss', 'zzzzz_qqqqq', 'fffff_aaa']
+#strok = ['ddddd_ZZZZ', 'aaaaa_sssss', 'zzzzz_qqqqq', 'fffff_aaa']
 
 # for l in i:
 # 	print(l)
 
 # 	
 
-for i in strok:
-	nn = i.split('_')[0].title()
-	print(nn)
+# for i in strok:
+# 	nn = i.split('_')[0].title()
+# 	print(nn)
+
+person = {'name': 'ivan', 'surname': 'pupkin'}
+
+d = dict(name='petr', tel='12345')
+
+print(d)
+
+name = person['name']
+print(name)
