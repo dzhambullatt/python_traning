@@ -49,7 +49,7 @@
 # 	nn = i.split('_')[0].title()
 # 	print(nn)
 
-person = {'name': 'ivan', 'surname': 'pupkin'}
+# person = {'name': 'ivan', 'surname': 'pupkin'}
 
 # d = dict(name='petr', tel='12345')
 
@@ -62,15 +62,22 @@ person = {'name': 'ivan', 'surname': 'pupkin'}
 # print(tel)
 
 
-for i in person:
-	print(i)
+# for i in person:
+# 	print(i)
 
 
-for i in person.keys():
-	print(i)
+# for i in person.keys():
+# 	print(i)
 
-for i in person.items():
-	print(i)
+# for i in person.items():
+# 	print(i)
 
-for key, value in person.items():
-	print(key, value)
+# for key, value in person.items():
+# 	print(key, value)
+
+
+inter = 0
+while inter <= 100:
+	print(inter)
+	inter += 1
+
